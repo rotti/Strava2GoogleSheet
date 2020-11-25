@@ -5,7 +5,7 @@ The code uses google script to authenticate to the Strava API and imports your a
 
 ## Authenticate to Strava and its API
 
-Everything you need to know is described here: https://www.benlcollins.com/spreadsheets/strava-api-with-google-sheets/
+Everything you need to know is described here: https://www.benlcollins.com/spreadsheets/strava-api-with-google-sheets/ || https://github.com/benlcollins/strava-sheets-integration
 Thanks to Ben Collins. All the kudos belongs to him alone!
 
 ## Google Spreadsheets Stuff
