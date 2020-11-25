@@ -12,7 +12,8 @@ Thanks to Ben Collins. All the kudos belongs to him alone!
 
 My dashboards looks like this: https://github.com/rotti/Strava2GoogleSheet/blob/main/dashboard.png
 
-I dont provide the pivot tables and actual dashboard elements here. You will find many guides and tutorials on the web. If you want to have a look how the result looks for me, you can aks for a read access here https://docs.google.com/spreadsheets/d/1ucdShZGE7XIRqKcaoEUEqMHPvVrvlvjwycSRedxBTfQ/edit?usp=sharing
+I dont provide the pivot tables and actual dashboard elements here. You will find many guides and tutorials on the web. If you want to have a look how the result looks for me, you can have a look here: https://docs.google.com/spreadsheets/d/1ucdShZGE7XIRqKcaoEUEqMHPvVrvlvjwycSRedxBTfQ/edit?usp=sharing 
+Note the one of the dashboards elements (the gauge one) needs edit rights to work. Unlikely I will provide those rights to you :)
 
 I provide a sample CSV which can be used for the initial data-table. The last column "translates" the ISO Date from the activity to a format, which can be used for a time series dashboard. Just add the following formular to this column inside the sheet: =ARRAYFORMULA(IF(LEN(A2:A),--REGEXREPLACE(REGEXREPLACE(E2:E,"T"," "),"[^0-9-:\s]","")))
 
